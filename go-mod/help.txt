@@ -1,0 +1,17 @@
+# auto search modules
+go env -w GO111MODULE=auto
+
+# init module
+go mod init <module_name>
+
+# get requirements for the project to the "vendor" directory
+go mod vendor
+
+# download all requirements and build the project
+go build
+
+# download all requirements without building the project
+go mod download
+
+# cleanup and update all requirements in go.mod and go.sum
+go mod tidy
