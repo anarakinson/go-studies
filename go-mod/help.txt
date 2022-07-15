@@ -15,3 +15,6 @@ go mod download
 
 # cleanup and update all requirements in go.mod and go.sum
 go mod tidy
+
+# init module into github repository: go to the module directory and:
+go mod init github.com/<username>/<reponame>

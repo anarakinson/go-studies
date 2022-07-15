@@ -1,3 +1,9 @@
+github.com/anarakinson/go_test_module v1.0.4 h1:d9IZ9xYJvm4PbhfhDGjryQIKbFYHcM9GHVxxbrJnDy0=
+github.com/anarakinson/go_test_module v1.0.4/go.mod h1:k9zxIQvJBTZN9fjqcgYliB/Nd53D2VIZOyUMTgWsUTM=
+github.com/anarakinson/go_test_module/v2 v2.0.0 h1:TrK2P23D6IQI4k0JowwXfwCIi7D0/mucW5nvluevObA=
+github.com/anarakinson/go_test_module/v2 v2.0.0/go.mod h1:xj8dhNBUrr08XCKcwnzv13Hj5nKNOQA9l1NbpTSOHYc=
+github.com/anarakinson/go_test_module/v3 v3.0.1 h1:/qPC0ZSAbBapWf2a4enV6xkQoisq51gmXhtNOiqx8ZQ=
+github.com/anarakinson/go_test_module/v3 v3.0.1/go.mod h1:NF0iWgP4JKCf0zK9oxxCKDf2sH7i1x0qlmK6/9kauCE=
 github.com/fatih/color v1.13.0 h1:8LOYc1KYPPmyKMuN8QV2DNRWNbLo6LZ0iLs8+mlH53w=
 github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYFFOfk=
 github.com/mattn/go-colorable v0.1.9 h1:sqDoxXbdeALODt0DAeJCVp38ps9ZogZEAXjus69YV3U=
