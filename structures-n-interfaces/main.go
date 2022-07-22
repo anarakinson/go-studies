@@ -3,7 +3,7 @@ package main
 import (
     "fmt"
     "internal/customer"
-    "internal/debtor"
+    "internal/process"
 )
 
 func main() {
@@ -17,9 +17,9 @@ func main() {
     cust1 := customer.NewCustomer("Bobby", 21, 20000, 200, true)
     part1 := customer.NewPartner("Billy", 23, 25000, 250)
 
-    discount, err := cust1.CalcDiscount(1000)
+    discount, err := calcDiscount(cust1, 1000)
     if err == nil {
-        fmt.Println(discount)
+        fmt.Println("customer", discount)
     } else {
         fmt.Println(err)
     }
@@ -37,6 +37,10 @@ func main() {
     fmt.Println("first partner after wr. off balance:\nbalance:", part1.Balance(), "\ndebt:", part1.Debt())
 }
 
-func startTransaction(dbtr debtor.Debtor) {
+func startTransaction(dbtr process.Debtor) {
     dbtr.WrOffDebt()
+}
+
+func calcDiscount(dsc process.Discounter, price int) (int, error){
+    return dsc.CalcDiscount(price)
 }
