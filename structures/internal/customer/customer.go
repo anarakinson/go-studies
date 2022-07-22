@@ -16,11 +16,11 @@ type Customer struct {
 }
 
 func NewCustomer(
-    name string,
-    age int,
-    balance int,
-    debt int,
-    discount bool,
+        name string,
+        age int,
+        balance int,
+        debt int,
+        discount bool,
     ) (*Customer) {
         return &Customer{
             Name: name,
