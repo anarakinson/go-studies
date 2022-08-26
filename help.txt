@@ -9,6 +9,8 @@ go mod vendor
 
 # download all requirements and build the project
 go build
+go build -o <output_name> <file1.go> <file2.go> ... <fileN.go>
+go build -o program.exe main.go
 
 # download all requirements without building the project
 go mod download
