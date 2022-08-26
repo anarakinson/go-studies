@@ -1,6 +1,6 @@
 package product
 
-const carVehicleType = "car"
+const CarVehicleType = "car"
 
 type Car struct {
     price int64
@@ -17,7 +17,7 @@ func NewCar(model string, age int, price int64) *Car {
 }
 
 func (c *Car) Type() string {
-    return carVehicleType
+    return CarVehicleType
 }
 
 func (c *Car) Model() string {

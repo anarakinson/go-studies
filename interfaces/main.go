@@ -20,7 +20,13 @@ func main() {
         },
     )
 
-    fmt.Println(truck.Type())
+    // fmt.Println(truck.Type())
+    fmt.Print("truck type: ")
+    product.PrintType(truck)
+    fmt.Print("engine type: ")
+    product.PrintType(engine)
 
-    fmt.Println(bask.Total())
+    fmt.Println("Total price:", bask.Total())
+
+    fmt.Println("Total car price:", bask.CarTotalPrice())
 }
